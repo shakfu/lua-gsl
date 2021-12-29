@@ -1,7 +1,7 @@
 gsl = require "lua_gsl"
 
-print("gsl.bessel(5): " .. gsl.bessel(5))
-print("gsl.mysin(93): " .. gsl.mysin(93))
+print("gsl.bessel_j0(5): " .. gsl.bessel_j0(5))
+print("gsl.asinh(93): " .. gsl.asinh(93))
 
 print("gsl.rando(5, 123)")
 local rnd = gsl.rando(5, 123)
